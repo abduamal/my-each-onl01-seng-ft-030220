@@ -4,8 +4,9 @@ def my_each(array)
   i = 0 
   
   while i < array.length
-    yield array[i] { |name| "Yo, " + name + "!"}
+    yield array[i]
     i = i + 1
   end
-  
 end
+
+my_each(buddies) { |name| "Yo, " + name + "!"}
