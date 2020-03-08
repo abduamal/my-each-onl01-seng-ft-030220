@@ -7,9 +7,9 @@ def my_each(array)
   
 end
 
-[joe, flo, moe]
+buddies = [joe, flo, moe]
 
-my_each ([joe, flo, moe]) do |name|
+my_each ([buddies]) do |name|
   if name.include?("e")
     puts "Yo, #{name}!"
   end
