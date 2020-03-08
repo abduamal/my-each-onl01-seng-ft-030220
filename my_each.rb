@@ -1,16 +1,16 @@
 def my_each(array)
-  collecter = []
+  names = ""
   
   while collecter.length < array.length
-    yield array do |word|
-      collecter << word
-    end
+    yield array[names] { |name| name + "What's up"}
   end
   
 end
 
-array = [joe, flo, moe]
+[joe, flo, moe]
 
-yielding do |word|
-  collecter << word
+my_each ([joe, flo, moe]) do |name|
+  if name.include?("e")
+    puts "Yo, #{name}!"
+  end
 end
