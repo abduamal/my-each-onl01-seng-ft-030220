@@ -1,5 +1,6 @@
+buddies = [joe, flo, moe]
+
 def my_each(array)
-  buddies = [joe, flo, moe]
   i = 0 
   
   while collecter.length < array.length
