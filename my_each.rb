@@ -2,7 +2,7 @@ def my_each(array)
   collecter = []
   
   while collecter.length < array.length
-    yield array(collecter) do |word|
+    yield array do |word|
       collecter << word
     end
   end
