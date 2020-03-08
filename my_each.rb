@@ -4,7 +4,7 @@ def my_each(array)
   i = 0 
   
   while collecter.length < array.length
-    yield array[i] { |name| name + "What's up"}
+    yield array[i] { |name| name + ", what's up"}
     i = i + 1
   end
   
