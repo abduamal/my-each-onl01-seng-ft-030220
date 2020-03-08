@@ -1,13 +1,15 @@
 def my_each(array)
-  names = ""
+  buddies = [joe, flo, moe]
+  i = 0 
   
   while collecter.length < array.length
-    yield array[names] { |name| name + "What's up"}
+    yield array[i] { |name| name + "What's up"}
+    i = i + 1
   end
   
 end
 
-buddies = [joe, flo, moe]
+
 
 my_each ([buddies]) do |name|
   if name.include?("e")
