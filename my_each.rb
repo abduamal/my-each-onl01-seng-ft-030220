@@ -3,7 +3,7 @@ buddies = [joe, flo, moe]
 def my_each(array)
   i = 0 
   
-  while collecter.length < array.length
+  while i < array.length
     yield array[i] { |name| "Yo, " + name + "!"}
     i = i + 1
   end
