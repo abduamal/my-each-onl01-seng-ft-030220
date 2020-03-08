@@ -1,4 +1,4 @@
-buddies = [joe, flo, moe]
+buddies = ["joe", "flo", "moe"]
 
 def my_each(array)
   i = 0 
